@@ -43,3 +43,13 @@ this chip uses the [POKEY](../4-instrument/pokey.md) instrument editor.
 when two channels are joined for filtered output, the channel bar will show `filter` on a bracket tying them together.
 
 when two channels are joined for wide period range, the channel bar will show `16-bit` on a bracket tying them together.
+
+## ROM export
+
+a song can be exported as SAP-R, a compressed register dump. more details on the format are available (in Polish) at [its page on the Atariki wiki](http://atariki.krap.pl/index.php/SAP_%28format_pliku%29).
+
+## chip config
+
+the following options are available in the Chip Manager window:
+
+- **PAL**: run the chip at PAL clock (1.77MHz) instead of NTSC (1.79MHz).
